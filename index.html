@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>అక్షర ఉదయం ఈ-పేపర్ | ఈరోజు డిజిటల్ వార్తాపత్రిక</title>
+    <meta name="description" content="ఈరోజు ఆంధ్ర జ్యోతి ఈ-పేపర్ చదవండి. స్థానిక, జాతీయ మరియు అంతర్జాతీయ వార్తలు.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="newspaper-icon.svg">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Telugu Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="header-date">
+                    <span id="currentDate"></span>
+                </div>
+            </div>
+            <div class="header-main">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">📰</div>
+                    <div class="logo-text">
+                        <h1>అక్షర ఉదయం</h1>
+                        <span>ఈ-పేపర్ ప్రతి</span>
+                    </div>
+                </a>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link active">హోమ్</a>
+                    <a href="#" class="nav-link">వీడియోలు</a>
+                    <a href="#" class="nav-link">మా గురించి</a>
+                    <a href="#" class="nav-link">సంప్రదింపు</a>
+                    <div class="nav-dropdown">
+                        <button class="nav-link dropdown-btn">మరిన్ని <i class="fas fa-chevron-down"></i></button>
+                        <div class="dropdown-menu">
+                            <a href="#">ఆర్కైవ్స్</a>
+                            <a href="#">సబ్స్క్రయిబ్</a>
+                            <a href="#">ప్రకటనలు</a>
+                        </div>
+                    </div>
+                </nav>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breaking News Section -->
+    <section class="breaking-news-section">
+        <div class="container">
+            <div class="breaking-news-header">
+                <span class="breaking-label"><i class="fas fa-bolt"></i> బ్రేకింగ్ న్యూస్</span>
+            </div>
+            <div class="breaking-news-slider" id="breakingNewsSlider">
+                <div class="breaking-slides">
+                    <div class="breaking-slide active">
+                        <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=400&h=240&fit=crop" alt="Breaking News 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22180%22%3E%3Crect fill=%22%23c41e3a%22 width=%22300%22 height=%22180%22/%3E%3Ctext x=%22150%22 y=%2295%22 text-anchor=%22middle%22 fill=%22%23fff%22 font-size=%2216%22%3Eరాజకీయాలు%3C/text%3E%3C/svg%3E'">
+                        <div class="breaking-content">
+                            <h4>ముఖ్యమంత్రి కీలక ప్రకటన: రాష్ట్రంలో కొత్త పథకాల ప్రారంభం</h4>
+                            <p>రాష్ట్ర ప్రభుత్వం పేదల welfare కోసం కొత్త పథకాలను ప్రారంభించనున్నట్లు ముఖ్యమంత్రి ప్రకటించారు. ఈ పథకాల ద్వారా లక్షలాది మంది ప్రయోజనం పొందనున్నారు.</p>
+                        </div>
+                    </div>
+                    <div class="breaking-slide">
+                        <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=400&h=240&fit=crop" alt="Breaking News 2" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22180%22%3E%3Crect fill=%22%2325D366%22 width=%22300%22 height=%22180%22/%3E%3Ctext x=%22150%22 y=%2295%22 text-anchor=%22middle%22 fill=%22%23fff%22 font-size=%2216%22%3Eక్రీడలు%3C/text%3E%3C/svg%3E'">
+                        <div class="breaking-content">
+                            <h4>టీమ్ ఇండియా విజయం: ఆస్ట్రేలియా పై భారీ విజయం</h4>
+                            <p>భారత క్రికెట్ జట్టు ఆస్ట్రేలియా పై భారీ విజయం సాధించింది. రోహిత్ శర్మ, విరాట్ కోహ్లి అభిమానులను అలరించారు.</p>
+                        </div>
+                    </div>
+                    <div class="breaking-slide">
+                        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400&h=240&fit=crop" alt="Breaking News 3" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22180%22%3E%3Crect fill=%22%23f4a261%22 width=%22300%22 height=%22180%22/%3E%3Ctext x=%22150%22 y=%2295%22 text-anchor=%22middle%22 fill=%22%23fff%22 font-size=%2216%22%3Eసినిమా%3C/text%3E%3C/svg%3E'">
+                        <div class="breaking-content">
+                            <h4>ప్రభాస్ కొత్త చిత్రం టీజర్: రికార్డ్ వ్యూస్</h4>
+                            <p>రెబెల్ స్టార్ ప్రభాస్ కొత్త చిత్రం టీజర్ యూట్యూబ్ లో రికార్డ్ వ్యూస్ సాధిస్తోంది. ఫ్యాన్స్ సోషల్ మీడియాలో వైరల్ చేస్తున్నారు.</p>
+                        </div>
+                    </div>
+                    <div class="breaking-slide">
+                        <img src="https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?w=400&h=240&fit=crop" alt="Breaking News 4" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22180%22%3E%3Crect fill=%22%231a1a1a%22 width=%22300%22 height=%22180%22/%3E%3Ctext x=%22150%22 y=%2295%22 text-anchor=%22middle%22 fill=%22%23fff%22 font-size=%2216%22%3Eవాతావరణం%3C/text%3E%3C/svg%3E'">
+                        <div class="breaking-content">
+                            <h4>తెలంగాణలో భారీ వర్షాలు: అలర్ట్ జారీ</h4>
+                            <p>రాష్ట్రంలో మరో మూడు రోజుల పాటు భారీ వర్షాలు పడనున్నాయని వాతావరణ శాఖ హెచ్చరించింది. పంటలను కాపాడుకోవాలని రైతులకు సూచన.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="breaking-nav breaking-prev" id="breakingPrev" aria-label="Previous news">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="breaking-nav breaking-next" id="breakingNext" aria-label="Next news">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="breaking-dots" id="breakingDots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="epaper-layout">
+                <!-- Left Sidebar - Past Dates -->
+                <aside class="sidebar-left">
+                    <h3 class="sidebar-title"><i class="fas fa-history"></i> గత సంచికలు</h3>
+                    <ul class="date-list" id="pastDatesList">
+                        <li class="date-item active" data-date="2026-04-01">
+                            <span class="date-day">బుధవారం</span>
+                            <span class="date-full">1 ఏప్రిల్ 2026</span>
+                        </li>
+                        <li class="date-item" data-date="2026-03-31">
+                            <span class="date-day">మంగళవారం</span>
+                            <span class="date-full">31 మార్చి 2026</span>
+                        </li>
+                        <li class="date-item" data-date="2026-03-30">
+                            <span class="date-day">సోమవారం</span>
+                            <span class="date-full">30 మార్చి 2026</span>
+                        </li>
+                        <li class="date-item" data-date="2026-03-29">
+                            <span class="date-day">ఆదివారం</span>
+                            <span class="date-full">29 మార్చి 2026</span>
+                        </li>
+                        <li class="date-item" data-date="2026-03-28">
+                            <span class="date-day">శనివారం</span>
+                            <span class="date-full">28 మార్చి 2026</span>
+                        </li>
+                        <li class="date-item" data-date="2026-03-27">
+                            <span class="date-day">శుక్రవారం</span>
+                            <span class="date-full">27 మార్చి 2026</span>
+                        </li>
+                        <li class="date-item" data-date="2026-03-26">
+                            <span class="date-day">గురువారం</span>
+                            <span class="date-full">26 మార్చి 2026</span>
+                        </li>
+                        <li class="date-item" data-date="2026-03-25">
+                            <span class="date-day">బుధవారం</span>
+                            <span class="date-full">25 మార్చి 2026</span>
+                        </li>
+                        <li class="date-item" data-date="2026-03-24">
+                            <span class="date-day">మంగళవారం</span>
+                            <span class="date-full">24 మార్చి 2026</span>
+                        </li>
+                        <li class="date-item" data-date="2026-03-23">
+                            <span class="date-day">సోమవారం</span>
+                            <span class="date-full">23 మార్చి 2026</span>
+                        </li>
+                    </ul>
+                </aside>
+
+                <!-- E-Paper Viewer -->
+                <div class="epaper-container">
+                <!-- Toolbar -->
+                <div class="epaper-toolbar">
+                    <div class="toolbar-section">
+                        <button class="toolbar-btn" id="zoomOut" aria-label="Zoom out">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <span class="zoom-level" id="zoomLevel">100%</span>
+                        <button class="toolbar-btn" id="zoomIn" aria-label="Zoom in">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <div class="toolbar-section">
+                        <button class="toolbar-btn" id="prevPage" aria-label="Previous page">
+                            <i class="fas fa-chevron-left"></i> ముందు
+                        </button>
+                        <span class="page-info">
+                            పేజీ <span id="currentPage">1</span> / <span id="totalPages">12</span>
+                        </span>
+                        <button class="toolbar-btn" id="nextPage" aria-label="Next page">
+                            తర్వాత <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="toolbar-section">
+                        <button class="toolbar-btn" id="fullscreen" aria-label="Fullscreen">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                        <button class="toolbar-btn" id="download" aria-label="Download PDF">
+                            <i class="fas fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Date Selector -->
+                <div class="date-selector">
+                    <label for="datePicker">
+                        <i class="fas fa-calendar-alt"></i> తేదీ ఎంచుకోండి:
+                    </label>
+                    <input type="date" id="datePicker" class="date-picker">
+                    <button class="btn btn-primary" id="goToDate">వెళ్ళండి</button>
+                </div>
+
+                <!-- Page Viewer -->
+                <div class="page-viewer" id="pageViewer">
+                    <div class="page-container" id="pageContainer">
+                        <img src="pages/page-1.svg" alt="Newspaper Page 1" class="page-image" id="currentPageImage">
+                        <div class="page-loading" id="pageLoading">
+                            <div class="spinner"></div>
+                            <p>పేజీ లోడ్ అవుతోంది...</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation Arrows -->
+                    <button class="nav-arrow nav-arrow-left" id="navLeft" aria-label="Previous page">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="nav-arrow nav-arrow-right" id="navRight" aria-label="Next page">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <!-- Swipe Hint -->
+                <div class="swipe-hint">
+                    <i class="fas fa-hand-pointer"></i> పేజీలు మార్చడానికి ఎడమ లేదా కుడి వైపు స్వైప్ చేయండి
+                </div>
+
+                <!-- Page Thumbnails -->
+                <div class="page-thumbnails">
+                    <h3>అన్ని పేజీలు</h3>
+                    <div class="thumbnails-grid" id="thumbnailsGrid">
+                        <!-- Generated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+                <!-- Right Sidebar - Weather -->
+                <aside class="sidebar-right">
+                    <div class="weather-widget">
+                        <h3 class="sidebar-title"><i class="fas fa-cloud-sun"></i> వాతావరణం</h3>
+                        <div class="weather-slider" id="weatherSlider">
+                            <!-- Hyderabad -->
+                            <div class="weather-slide active" data-location="hyderabad">
+                                <div class="weather-main">
+                                    <div class="weather-icon">
+                                        <i class="fas fa-sun"></i>
+                                    </div>
+                                    <div class="weather-temp">32°C</div>
+                                    <div class="weather-desc">ఎండగా ఉంది</div>
+                                </div>
+                                <div class="weather-location">
+                                    <i class="fas fa-map-marker-alt"></i> హైదరాబాద్
+                                </div>
+                                <div class="weather-details">
+                                    <div class="weather-item">
+                                        <span class="weather-label">ఆర్ద్రత</span>
+                                        <span class="weather-value">65%</span>
+                                    </div>
+                                    <div class="weather-item">
+                                        <span class="weather-label">గాలి వేగం</span>
+                                        <span class="weather-value">12 km/h</span>
+                                    </div>
+                                    <div class="weather-item">
+                                        <span class="weather-label">దృశ్యత</span>
+                                        <span class="weather-value">10 km</span>
+                                    </div>
+                                </div>
+                                <div class="weather-forecast">
+                                    <h4>5-రోజుల సూచన - హైదరాబాద్</h4>
+                                    <div class="forecast-list" id="forecast-hyderabad">
+                                        <!-- Populated by JavaScript -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Vijayawada -->
+                            <div class="weather-slide" data-location="vijayawada">
+                                <div class="weather-main">
+                                    <div class="weather-icon">
+                                        <i class="fas fa-cloud-rain"></i>
+                                    </div>
+                                    <div class="weather-temp">28°C</div>
+                                    <div class="weather-desc">తేలికపాటి వర్షం</div>
+                                </div>
+                                <div class="weather-location">
+                                    <i class="fas fa-map-marker-alt"></i> విజయవాడ
+                                </div>
+                                <div class="weather-details">
+                                    <div class="weather-item">
+                                        <span class="weather-label">ఆర్ద్రత</span>
+                                        <span class="weather-value">78%</span>
+                                    </div>
+                                    <div class="weather-item">
+                                        <span class="weather-label">గాలి వేగం</span>
+                                        <span class="weather-value">15 km/h</span>
+                                    </div>
+                                    <div class="weather-item">
+                                        <span class="weather-label">దృశ్యత</span>
+                                        <span class="weather-value">8 km</span>
+                                    </div>
+                                </div>
+                                <div class="weather-forecast">
+                                    <h4>5-రోజుల సూచన - విజయవాడ</h4>
+                                    <div class="forecast-list" id="forecast-vijayawada">
+                                        <!-- Populated by JavaScript -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tirupati -->
+                            <div class="weather-slide" data-location="tirupati">
+                                <div class="weather-main">
+                                    <div class="weather-icon">
+                                        <i class="fas fa-cloud-sun"></i>
+                                    </div>
+                                    <div class="weather-temp">30°C</div>
+                                    <div class="weather-desc">పాప్చిగా మేఘావృతం</div>
+                                </div>
+                                <div class="weather-location">
+                                    <i class="fas fa-map-marker-alt"></i> తిరుపతి
+                                </div>
+                                <div class="weather-details">
+                                    <div class="weather-item">
+                                        <span class="weather-label">ఆర్ద్రత</span>
+                                        <span class="weather-value">70%</span>
+                                    </div>
+                                    <div class="weather-item">
+                                        <span class="weather-label">గాలి వేగం</span>
+                                        <span class="weather-value">10 km/h</span>
+                                    </div>
+                                    <div class="weather-item">
+                                        <span class="weather-label">దృశ్యత</span>
+                                        <span class="weather-value">9 km</span>
+                                    </div>
+                                </div>
+                                <div class="weather-forecast">
+                                    <h4>5-రోజుల సూచన - తిరుపతి</h4>
+                                    <div class="forecast-list" id="forecast-tirupati">
+                                        <!-- Populated by JavaScript -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weather-nav">
+                            <button class="weather-prev" id="weatherPrev" aria-label="Previous location">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="weather-dots" id="weatherDots">
+                                <span class="dot active" data-slide="0"></span>
+                                <span class="dot" data-slide="1"></span>
+                                <span class="dot" data-slide="2"></span>
+                            </div>
+                            <button class="weather-next" id="weatherNext" aria-label="Next location">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Category News Section -->
+    <section class="category-news-section">
+        <div class="container">
+            <div class="category-grid">
+                <!-- Politics News -->
+                <div class="category-block">
+                    <h3 class="category-title politics">
+                        <i class="fas fa-landmark"></i> రాజకీయాలు
+                    </h3>
+                    <div class="category-content">
+                        <div class="news-item">
+                            <span class="news-time">10:30 AM</span>
+                            <a href="#" class="news-link">ప్రధాని పర్యటన కొనసాగుతోంది, కీలక ప్రకటనలు చేయనున్నారు</a>
+                        </div>
+                        <div class="news-item">
+                            <span class="news-time">09:15 AM</span>
+                            <a href="#" class="news-link">రాష్ట్ర అసెంబ్లీ సమావేశాలు ప్రారంభం</a>
+                        </div>
+                        <div class="news-item">
+                            <span class="news-time">08:45 AM</span>
+                            <a href="#" class="news-link">కొత్త పథకాలకు కేబినెట్ ఆమోదం</a>
+                        </div>
+                        <div class="news-item">
+                            <span class="news-time">07:30 AM</span>
+                            <a href="#" class="news-link">ఎన్నికల కమిషన్ ప్రకటన విడుదల</a>
+                        </div>
+                    </div>
+                    <a href="#" class="view-more">మరిన్ని చూడండి <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Sports News -->
+                <div class="category-block">
+                    <h3 class="category-title sports">
+                        <i class="fas fa-running"></i> క్రీడలు
+                    </h3>
+                    <div class="category-content">
+                        <div class="news-item">
+                            <span class="news-time">11:00 AM</span>
+                            <a href="#" class="news-link">భారత్ వర్సెస్ ఆస్ట్రేలియా: మూడో రోజు ఆట</a>
+                        </div>
+                        <div class="news-item">
+                            <span class="news-time">10:15 AM</span>
+                            <a href="#" class="news-link">IPL 2026 షెడ్యూల్ ప్రకటించబడింది</a>
+                        </div>
+                        <div class="news-item">
+                            <span class="news-time">09:30 AM</span>
+                            <a href="#" class="news-link">ఫుట్‌బాల్ లీగ్: హైదరాబాద్ FC గెలుపు</a>
+                        </div>
+                        <div class="news-item">
+                            <span class="news-time">08:00 AM</span>
+                            <a href="#" class="news-link">ఒలింపిక్స్ శిక్షణ శిబిరం ప్రారంభం</a>
+                        </div>
+                    </div>
+                    <a href="#" class="view-more">మరిన్ని చూడండి <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Tollywood News -->
+                <div class="category-block">
+                    <h3 class="category-title tollywood">
+                        <i class="fas fa-film"></i> టాలీవుడ్
+                    </h3>
+                    <div class="category-content">
+                        <div class="news-item">
+                            <span class="news-time">12:00 PM</span>
+                            <a href="#" class="news-link">నయనతార చిత్రం టీజర్ విడుదల</a>
+                        </div>
+                        <div class="news-item">
+                            <span class="news-time">11:30 AM</span>
+                            <a href="#" class="news-link">ప్రభాస్ సినిమా షూటింగ్ పూర్తి</a>
+                        </div>
+                        <div class="news-item">
+                            <span class="news-time">10:45 AM</span>
+                            <a href="#" class="news-link">అల్లు అర్జున్ కొత్త ప్రాజెక్ట్ ప్రకటన</a>
+                        </div>
+                        <div class="news-item">
+                            <span class="news-time">09:00 AM</span>
+                            <a href="#" class="news-link">సినిమా పరిశ్రమకు కొత్త సినిమా థియేటర్లు</a>
+                        </div>
+                    </div>
+                    <a href="#" class="view-more">మరిన్ని చూడండి <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">📰</div>
+                        <div class="logo-text">
+                            <h2>అక్షర ఉదయం</h2>
+                            <span>మీ నమ్మకమైన వార్తా మూలం</span>
+                        </div>
+                    </div>
+                    <p>ప్రపంచవ్యాప్తంగా తాజా వార్తలు, నవీకరణలు మరియు కథనాలతో అప్-టు-డేట్‌గా ఉండండి. మా ఈ-పేపర్ మీకు సాంప్రదాయ వార్తాపత్రిక అనుభవాన్ని డిజిటల్ ఫార్మాట్‌లో అందిస్తుంది.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>త్వరిత లింకులు</h4>
+                    <ul>
+                        <li><a href="#">హోమ్</a></li>
+                        <li><a href="#">ఈరోజు పేపర్</a></li>
+                        <li><a href="#">ఆర్కైవ్స్</a></li>
+                        <li><a href="#">సబ్స్క్రయిబ్</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>వర్గాలు</h4>
+                    <ul>
+                        <li><a href="#">రాజకీయాలు</a></li>
+                        <li><a href="#">క్రీడలు</a></li>
+                        <li><a href="#">వ్యాపారం</a></li>
+                        <li><a href="#">వినోదం</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>సంప్రదింపు</h4>
+                    <p><i class="fas fa-envelope"></i> contact@aksharaudayam.com</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 వార్తా వీధి, హైదరాబాద్</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 అక్షర ఉదయం. సర్వహక్కులు ప్రత్యేకించబడ్డాయి.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">గోప్యతా విధానం</a>
+                    <a href="#">సేవా నిబంధనలు</a>
+                    <a href="#">కుకీ విధానం</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Share Button -->
+    <a href="https://wa.me/?text=అక్షర%20ఉదయం%20ఈ-పేపర్%20-%20ఈరోజు%20వార్తాపత్రిక%20చదవండి%3A%20https%3A%2F%2Fepaper.aksharaudayam.in" class="whatsapp-share" id="whatsappShare" target="_blank" rel="noopener noreferrer" aria-label="Share on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="share-text" id="whatsappText">షేర్ చేయండి</span>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
