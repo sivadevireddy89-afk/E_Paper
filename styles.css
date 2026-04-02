@@ -1003,6 +1003,133 @@ button {
     }
 }
 
+/* Why Us Section */
+.why-us-section {
+    padding: 60px 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.why-us-grid {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 40px;
+    align-items: center;
+}
+
+.why-us-image {
+    position: relative;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.why-us-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.why-us-content {
+    padding: 20px 0;
+}
+
+.why-us-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Noto Sans Telugu', 'Merriweather', serif;
+}
+
+.why-us-title i {
+    color: var(--secondary-color);
+}
+
+.why-us-reasons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.reason-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px;
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.reason-item:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+}
+
+.reason-icon {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--secondary-color), #c41e3a);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 1.25rem;
+}
+
+.reason-text h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+    font-family: 'Noto Sans Telugu', 'Merriweather', serif;
+}
+
+.reason-text p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Responsive Why Us */
+@media (max-width: 1024px) {
+    .why-us-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .why-us-image {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .why-us-reasons {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .why-us-title {
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+    
+    .reason-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .reason-icon {
+        margin: 0 auto;
+    }
+}
 /* Footer */
 .footer {
     background: var(--primary-color);
