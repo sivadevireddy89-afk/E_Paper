@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <!-- Background -->
+  <rect fill="#fafafa" width="800" height="1000"/>
+  
+  <!-- Newspaper Border -->
+  <rect x="20" y="20" width="760" height="960" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="720" height="100" fill="#c41e3a"/>
+  <text x="400" y="80" text-anchor="middle" fill="#ffffff" font-family="Noto Sans Telugu, sans-serif" font-size="32" font-weight="bold">అక్షర ఉదయం</text>
+  <text x="400" y="110" text-anchor="middle" fill="#ffffff" font-family="Noto Sans Telugu, sans-serif" font-size="14">మీ నమ్మకమైన వార్తా మూలం - 1920 నుండి</text>
+  
+  <!-- Date Line -->
+  <rect x="40" y="150" width="720" height="30" fill="#f0f0f0"/>
+  <text x="60" y="170" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="12">ఏప్రిల్ 1, 2026 | బుధవారం | సంపుటి 104 సంచిక 91</text>
+  <text x="740" y="170" text-anchor="end" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="12">₹5.00</text>
+  
+  <!-- Main Headline -->
+  <text x="400" y="220" text-anchor="middle" fill="#1a1a1a" font-family="Noto Sans Telugu, sans-serif" font-size="40" font-weight="bold">బ్రేకింగ్ న్యూస్</text>
+  <text x="400" y="260" text-anchor="middle" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="22">సాంకేతికతలో ప్రముఖ అభివృద్ధులు</text>
+  <text x="400" y="290" text-anchor="middle" fill="#666" font-family="Noto Sans Telugu, sans-serif" font-size="14">పరిశ్రమ నాయకులు కొత్త భాగస్వామ్యం ప్రకటించారు</text>
+  
+  <!-- Horizontal Line -->
+  <line x1="40" y1="320" x2="760" y2="320" stroke="#333" stroke-width="2"/>
+  
+  <!-- Article Columns -->
+  <!-- Left Column -->
+  <rect x="40" y="340" width="340" height="200" fill="#fff"/>
+  <text x="60" y="370" fill="#1a1a1a" font-family="Noto Sans Telugu, sans-serif" font-size="18" font-weight="bold">స్థానిక వార్తలు</text>
+  <text x="60" y="400" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="11">రాష్ట్ర రాజధానిలో పెద్ద ఎత్తున అభివృద్ధి కార్యక్రమాలు ప్రారంభమయ్యాయి. ముఖ్యమంత్రి ఈ కార్యక్రమాన్ని ప్రారంభించారు. ప్రజలు ఈ అభివృద్ధి పనులను హర్షించారు.</text>
+  <text x="60" y="470" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="11">నగరంలో కొత్త రోడ్లు, వంతెనల నిర్మాణం వేగవంతమైంది. ప్రజా రవాణా సౌకర్యాలను మెరుగుపరచడానికి ప్రభుత్వం ప్రతిబద్ధత వ్యక్తం చేసింది.</text>
+  
+  <!-- Right Column -->
+  <rect x="420" y="340" width="340" height="200" fill="#fff"/>
+  <text x="440" y="370" fill="#1a1a1a" font-family="Noto Sans Telugu, sans-serif" font-size="18" font-weight="bold">రాజకీయాలు</text>
+  <text x="440" y="400" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="11">పార్లమెంటు బడ్జెట్ సమావేశాలు ప్రారంభమయ్యాయి. ప్రతిపక్షాలు ప్రభుత్వ నిర్ణయాలపై తీవ్ర విమర్శలు చేశాయి. ప్రధాని సమాధానం ఇచ్చారు.</text>
+  <text x="440" y="470" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="11">రాష్ట్రాల మధ్య నీటి వివాదం మళ్ళీ తీవ్రమైంది. కేంద్రం మధ్యవర్తిత్వం చేసే ప్రయత్నాలు చేస్తోంది. రెండు రాష్ట్రాల ముఖ్యమంత్రులు భేటీ అయ్యారు.</text>
+  
+  <!-- Image Placeholder -->
+  <rect x="40" y="560" width="400" height="250" fill="#e0e0e0" stroke="#ccc"/>
+  <text x="240" y="685" text-anchor="middle" fill="#999" font-family="Noto Sans Telugu, sans-serif" font-size="16">[వార్తా చిత్రం]</text>
+  <text x="240" y="710" text-anchor="middle" fill="#666" font-family="Noto Sans Telugu, sans-serif" font-size="12">ఫోటో: ఆంధ్ర జ్యోతి ఆర్కైవ్</text>
+  
+  <!-- Side Stories -->
+  <rect x="460" y="560" width="300" height="80" fill="#f8f8f8"/>
+  <text x="470" y="590" fill="#c41e3a" font-family="Noto Sans Telugu, sans-serif" font-size="16" font-weight="bold">క్రీడలు</text>
+  <text x="470" y="615" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="11">జట్టు అద్భుత విజయంతో ఛాంపియన్‌షిప్ గెలిచింది...</text>
+  
+  <rect x="460" y="650" width="300" height="80" fill="#f8f8f8"/>
+  <text x="470" y="680" fill="#c41e3a" font-family="Noto Sans Telugu, sans-serif" font-size="16" font-weight="bold">వ్యాపారం</text>
+  <text x="470" y="705" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="11">ఆర్థిక వృద్ధి డేటా కనిపించడంతో మార్కెట్లు పెరిగాయి...</text>
+  
+  <!-- Bottom Section -->
+  <rect x="40" y="830" width="720" height="130" fill="#f0f0f0"/>
+  <text x="60" y="860" fill="#1a1a1a" font-family="Noto Sans Telugu, sans-serif" font-size="16" font-weight="bold">ప్రపంచ వార్తా సంగ్రహాలు</text>
+  <text x="60" y="890" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="10">• అంతర్జాతీయ సదస్సు వాతావరణ మార్పు కార్యక్రమాలను చర్చించింది</text>
+  <text x="60" y="910" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="10">• ప్రధాన ఆర్థిక వ్యవస్థల మధ్య కొత్త వాణిజ్య ఒప్పందాలు</text>
+  <text x="60" y="930" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="10">• సాంస్కృతిక ఉత్సవం వేలాది మంది సందర్శకులను ఆకర్షించింది</text>
+  <text x="60" y="950" fill="#333" font-family="Noto Sans Telugu, sans-serif" font-size="10">• వైద్య పరిశోధనలో శాస్త్రీయ ప్రగతి ప్రకటించబడింది</text>
+  
+  <!-- Page Number -->
+  <text x="400" y="980" text-anchor="middle" fill="#666" font-family="Noto Sans Telugu, sans-serif" font-size="12">పేజీ 1</text>
+</svg>
