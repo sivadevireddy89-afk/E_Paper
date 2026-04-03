@@ -1,3 +1,5 @@
+
+
 # Daily News E-Paper Website
 
 A digital newspaper e-paper website inspired by traditional newspaper layouts.
